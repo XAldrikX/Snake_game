@@ -1,0 +1,79 @@
+html, body {
+    margin: 10;
+    padding: 10;
+    font-family: 'Press Start 2P', cursive;
+    color: #990D35;
+    background: linear-gradient(-45deg, #de6262, #ec9965, #c29a3f, #dc2430);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+h1 {
+    font-size: 50px;
+    padding: 50px;
+    text-shadow: 4px 2px 4px rgb(32, 4, 4); 
+}
+h2 {
+    font-size: 30px;
+    text-shadow: 3px 1px 2px rgb(32, 3, 3);   
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #990D35;
+    color: #dacdb1;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover,
+button:focus {
+    background-color: #bb212b;
+    cursor: pointer;
+}
+
+.container {
+    text-align: center;
+    margin: 20px auto;
+    height: 100%;
+}
+
+.grid {
+    background-color: #dacdb1;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 200px;
+    border: solid 2px black;
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+}
+
+.snake {
+    background-color: green;
+}
+
+.apple {
+    background-color: #990D35;
+    border-radius: 50%;
+}
+
+#gameOver {
+    display: none;   
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
