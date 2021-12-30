@@ -13,7 +13,5 @@ Esse projeto foi muito divertido fazer, a razão de ter escolhido estudar Fronte
 </ul>
 <br>
 A movimentação da cobra pode ser feita com as setas do teclado e também com botoes que adicionei posteriormente para usuários mobile conseguirem jogar.
-
 <br>
-
-Link do deployment -->
+Link do deployment --> https://xaldrikx.github.io/Snake_game/
