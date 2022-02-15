@@ -8,7 +8,7 @@ Esse projeto foi muito divertido fazer, a razão de ter escolhido estudar Fronte
     <li>Math.floor / Math.random. (Utilizado para gerar aleatoriamente as maçãs que a cobra irá comer)</li><br>
     <li>setInterval> (Usado para invocar uma função chamada "move()" a cada um segundo, a cada maçã que a cobra come esse valor diminui fazendo assim que a cobra se movimente mais rápido)</li><br>
     <li>push / pop. (Utilizei esses métodos para dar a impressão de movimentação da cobra, como eu tinha 100 quadrados para trabalhar os quais tinham a classe de "square", eu tive que criar um array que iria conter os quadrados com a classe "snake", onde "tail" seria o ultimo índex do array e "currentSnake[0] o primeiro, desse jeito utilizando push e pop eu ia tirando a classe "snake" do último elemento desse array e push ia adicionando essa classe ao próximo índex, fazendo assim com que a cobra se movimente)</li><br>
-    <li>A movimentação da cobra se faz de maneira simples, tendo um array que contem as 100 divs criadas anteriormente, para fazer a movimentação para a direita apenas adiciono 1, para a esquerda -1, para baixo adiciono 10 e para cima -10.</li><br>
+    <li>A movimentação da cobra se faz de maneira simples, tendo um array que contem as 100 divs criadas anteriormente, para fazer a movimentação para a direita apenas adiciono 1 ao index, para a esquerda -1, para baixo adiciono 10 e para cima -10.</li><br>
     <li>Modulus operator %. (Modulus foi utilizado para a parte da lógica que identifica as bordas da div "grid")</li><br>
 </ul>
 <br>
