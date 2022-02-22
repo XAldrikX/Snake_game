@@ -1,4 +1,10 @@
 # Snake game
+
+<div class="center">
+    <img src="https://user-images.githubusercontent.com/88796366/155187016-cda2711b-cf30-4989-8cc0-fdb75a10a95f.png" width=800px>
+</div
+
+
 Esse projeto foi muito divertido fazer, a razão de ter escolhido estudar Frontend foi justamente poder criar algo dinâmico e acessível, onde posso colocar minha criatividade a prova e mostrar para as pessoas o que eu criei e elas poderem interagir com o jogo ou a web page, nesse desafio pude aprender métodos novos e rever outros que já sabia, como:<br>
 
 <ul>
